@@ -1,0 +1,55 @@
+{
+  "employees": [
+    {
+      "id": "2d13",
+      "firstname": "Harsh",
+      "middlename": "Kumar",
+      "lastname": "Gupta",
+      "dob": "2026-02-03",
+      "email": "hatsh18@gmail.com",
+      "maritalStatus": "married",
+      "phoneno": "9999991199",
+      "address": {
+        "street": "Noida 3",
+        "city": "Noida",
+        "state": "UP",
+        "country": "India",
+        "zipcode": "201301"
+      }
+    },
+    {
+      "id": "2071",
+      "firstname": "Aditya",
+      "middlename": "",
+      "lastname": "",
+      "dob": "2026-02-10",
+      "email": "aditya@123.yahoo.com",
+      "maritalStatus": "single",
+      "phoneno": "9998887771",
+      "address": {
+        "street": "Noida sec 18",
+        "city": "noida",
+        "state": "up",
+        "country": "india",
+        "zipcode": "201301"
+      }
+    },
+    {
+      "id": "1ed3",
+      "firstname": "Suresh",
+      "middlename": "Gautam",
+      "lastname": "",
+      "dob": "2020-08-12",
+      "email": "sureshgau@gmail.com",
+      "maritalStatus": "married",
+      "phoneno": "9898989898",
+      "address": {
+        "street": "Noida sec 3",
+        "city": "Gautam Buddha Nagar",
+        "state": "up",
+        "country": "india",
+        "zipcode": "201301"
+      }
+    }
+  ]
+}
