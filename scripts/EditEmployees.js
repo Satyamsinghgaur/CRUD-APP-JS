@@ -17,7 +17,9 @@ const id = params.get("id");
 
 async function getEditEmployee() {
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`);
+    let resp = await fetch(
+      `https://crud-app-js-f021.onrender.com/employees/${id}`,
+    );
     // console.log(resp);
     let data = await resp.json();
     console.log(data);
@@ -65,13 +67,16 @@ employeeFormEle.addEventListener("submit", async (e) => {
   };
 
   try {
-    let resp = await fetch("http://localhost:5000/employees/${id}", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    let resp = await fetch(
+      "https://crud-app-js-f021.onrender.com/employees/${id}",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updatedEmployeeData),
       },
-      body: JSON.stringify(updatedEmployeeData),
-    });
+    );
   } catch (error) {
     console.log(error);
     alert("Something Went Wrong ❌");
